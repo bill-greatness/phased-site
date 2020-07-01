@@ -1,0 +1,23 @@
+UI/UX  DOCUMENT DESIGN OF BRANFLUENZAS MARKETING LLC 
+
+Homepage (sample is cleveroad.com) 
+
+    Scrolling pictures of tech stuff with description of our competitive advantage as a company  
+
+    Services we offer with pictures 
+
+    Display of our featured works (mobile apps UI ) 
+
+    Our technology stack (Programming languages, databases, frameworks) of both mobile and web 
+
+    Industries we are expert in (fintech, healthcare, travel and hospitality ,agriculture, oil and gas, logistics ,real estate, education and retail with a lil details on it) 
+
+    Why choose Us  
+
+    Successful project counts (i.e. successful projects, clients satisfaction rate,etc ) 
+
+    Clients reviews 
+
+    Lets get talking or tell us about your projects 
+
+Footer 
