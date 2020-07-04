@@ -4,13 +4,16 @@ import { Grid, Segment, Image ,
   Icon, Statistic} from 'semantic-ui-react';
   import ContactForm from '../sections/contact_form'
 
+import FirstSlide from '../sections/first_slide'
+import SecondSlide from '../sections/second_slide'
+import ThirdSlide from '../sections/third_slide'
+import FourthSlide from '../sections/fourth_slide'
+
 import Title from '../sections/Header'
 import Slides from '../sections/Slider'
 import ImgHeader from '../sections/ImageHeader'
 import Slideshow from 'react-slidez'
-import firstSlide from '../assets/slider-1.jpg'
-import secondSlide from '../assets/welcome-slider-2.webp'
-import thirdSlide from '../assets/welcome-slider-3.webp'
+
 import mobileImage from '../assets/ic_mobile.png'
 import dataImage from '../assets/data-sci.png'
 import webImage from '../assets/web-devs.png'
@@ -63,15 +66,17 @@ class Homepage extends React.Component{
             <>
                   <Grid.Row className='s-grid'>
                     <Slideshow
-                        autoplay
-                        showArrows={false}
-                        slideInterval={10000}
-                        defaultIndex={1}
-                        slides={[firstSlide, secondSlide, thirdSlide]}
-                        effect={'right'}
-                        height={'100%'}
-                        width={'100%'}
-                        />
+                      effect='left'
+                      autoPlay
+                      showArrows={false}
+                      slideInterval={12000}
+                      width={'100%'}
+                        >
+                        <FirstSlide/>
+                        <SecondSlide/>
+                        <ThirdSlide/>
+                        <FourthSlide/>
+                    </Slideshow>
                     </Grid.Row>
 
                         <br/>
@@ -80,10 +85,8 @@ class Homepage extends React.Component{
                     <Grid.Column>
                         <Segment className='s-segment m-top' >
                             <Image src={mobileImage} size='tiny' floated='right' />
-                            <h2>Mobile Development</h2>
-                            <p>lorem ipsum, lorem ipsum lorem ipsum,
-                            lorem ipsum, lorem ipsum lorem ipsum
-                            lorem ipsum, lorem ipsum lorem ipsum
+                            <h2>Software Development</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             </p>
                         </Segment>
                     </Grid.Column>
@@ -91,10 +94,8 @@ class Homepage extends React.Component{
                     <Grid.Column>
                     <Segment  className='s-segment'>
                             <Image src={webImage} size='tiny' floated='right' />
-                            <h2>Website Development</h2>
-                            <p>lorem ipsum, lorem ipsum lorem ipsum,
-                            lorem ipsum, lorem ipsum lorem ipsum
-                            lorem ipsum, lorem ipsum lorem ipsum
+                            <h2>Creative Solutions</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             </p>
                         </Segment>
                     </Grid.Column>
@@ -102,10 +103,8 @@ class Homepage extends React.Component{
                     <Grid.Column>
                     <Segment  className='s-segment'>
                             <Image src={dataImage} size='tiny' floated='right' />
-                            <h2>Data Analysis</h2>
-                            <p>lorem ipsum, lorem ipsum lorem ipsum,
-                            lorem ipsum, lorem ipsum lorem ipsum
-                            lorem ipsum, lorem ipsum lorem ipsum
+                            <h2>Marketing</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             </p>
                         </Segment>
                     </Grid.Column>
@@ -155,12 +154,6 @@ class Homepage extends React.Component{
                                  <Image size='tiny' src={php}  centered/>
                                   PhP
                             </Grid.Column>
-
-
-
-
-
-
 
                             </Grid>
                               <br/>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Grid, Segment, Menu, Dropdown, Icon, Header, Image} from 'semantic-ui-react'
+import {Grid, Segment, Menu, Dropdown, Icon, Header, Image, Button} from 'semantic-ui-react'
 import laptop from '../assets/laptop.png'
 
 export default function Portfolio(){
@@ -13,29 +13,13 @@ export default function Portfolio(){
       <Menu.Item>Expertise</Menu.Item>
       <Dropdown text='Tech Stack' pointing className='link item'>
         <Dropdown.Menu>
-          <Dropdown.Header>Categories</Dropdown.Header>
-          <Dropdown.Item>
-            <Dropdown text='Clothing'>
-              <Dropdown.Menu>
-                <Dropdown.Header>Mens</Dropdown.Header>
-                <Dropdown.Item>Shirts</Dropdown.Item>
-                <Dropdown.Item>Pants</Dropdown.Item>
-                <Dropdown.Item>Jeans</Dropdown.Item>
-                <Dropdown.Item>Shoes</Dropdown.Item>
-                <Dropdown.Divider />
-                <Dropdown.Header>Womens</Dropdown.Header>
-                <Dropdown.Item>Dresses</Dropdown.Item>
-                <Dropdown.Item>Shoes</Dropdown.Item>
-                <Dropdown.Item>Bags</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </Dropdown.Item>
-          <Dropdown.Item>Home Goods</Dropdown.Item>
-          <Dropdown.Item>Bedroom</Dropdown.Item>
+          <Dropdown.Header>XXX XXX SSs</Dropdown.Header>
+          <Dropdown.Header>XYX XXX SSs</Dropdown.Header>
+          <Dropdown.Header>XBX XXX SSs</Dropdown.Header>
           <Dropdown.Divider />
-          <Dropdown.Header>Order</Dropdown.Header>
-          <Dropdown.Item>Status</Dropdown.Item>
-          <Dropdown.Item>Cancellations</Dropdown.Item>
+            <Dropdown.Header>XXX XXX SSs</Dropdown.Header>
+            <Dropdown.Header>XYX XXX SSs</Dropdown.Header>
+            <Dropdown.Header>XBX XXX SSs</Dropdown.Header>
         </Dropdown.Menu>
       </Dropdown>
       <Menu.Item>Region</Menu.Item>
@@ -59,14 +43,21 @@ export default function Portfolio(){
 
       </Menu.Menu>
     </Menu>
-      <Grid padded>
+      <Grid padded stackable>
         <Grid.Column width={16}>
           {[1,2,3].map(idx => (
             <Segment key={idx} style={{marginBottom:5}}>
-                <Grid columns={2}>
+                <Grid columns={2} stackable>
                     <Grid.Column width={5}>
-                        <Header as='h1' content='Some Group of Crap Here' />
-                        <p>Some Long Text Here With a Brief Description</p>
+                        <Header as='h1'>
+                            Project Name Here ...<br/>
+                            <Header.Subheader>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </Header.Subheader>
+                        </Header>
+                          <Button circular icon color='yellow'>
+                            <Icon name='angle double right'/> View Project
+                          </Button>
                     </Grid.Column>
 
                     <Grid.Column width={11}>

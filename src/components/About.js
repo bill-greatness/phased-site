@@ -77,7 +77,7 @@ class About extends React.Component {
                               </Header.Subheader>
                           </Header>
 
-                          <Grid columns={4}>
+                          <Grid columns={4} relaxed stackable>
 
                               <Grid.Column>
                                 <Card>
@@ -136,7 +136,7 @@ class About extends React.Component {
             <Grid.Row>
                     {/* Welcome */}
                     <Grid.Column width={16}>
-                      <Grid>
+                      <Grid stackable>
                           <Grid.Row>
                               <Grid.Column width={7}>
                                 <br/>

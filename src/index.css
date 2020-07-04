@@ -12,7 +12,7 @@
 }
 
 .s-grid{
-  height:100vh;
+  height:70vh;
 }
 .s-segment{
   height: 200px;
@@ -44,6 +44,14 @@
   text-align: center !important;
 }
 
+.top-links:hover > ._head{
+  animation-name: animate_head;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
 .stacks{
   justify-content: space-between !important;
   flex-direction: row !important;
@@ -53,6 +61,68 @@
   display: none !important;
 }
 
+@keyframes animate_head {
+  0% {
+    border-left: 1px solid white;
+  }
+
+75%{
+  border-bottom: 1px solid white;
+}
+100%{
+  border-right: 3px solid tomato;
+  color:tomato;
+}
+
+}
+
+.menu-header{
+  font-size: 12px !important;
+
+}
+
+.slide-one{
+  height: 70vh;
+  background-image: url('./assets/slider-1.jpg');
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.slide-two{
+  height: 70vh;
+  background-image: url('./assets/welcome-slider-2.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+}
+
+
+.slide-three{
+  height: 70vh;
+  background-image: url('./assets/welcome-slider-3.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.w-slides{
+  font-size: 50px !important;
+  padding-top: 25% !important;
+  padding-left: 5% !important;
+}
+
+.slide-four{
+  height: 70vh;
+  background-image: url('./assets/welcome-slider.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+}
 
 
 @media screen and (max-width:800px) {
@@ -60,6 +130,7 @@
   .s-segment{
     margin-top: 50px !important;
   }
+
 
   .desktop-menu{
     display: none !important;
