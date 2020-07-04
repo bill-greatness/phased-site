@@ -5,12 +5,12 @@ import {Grid, Segment, Header, Form,Input, Button, List, Icon} from 'semantic-ui
 export default function Footer(){
 
   return(
-        <Grid inverted style={{backgroundColor:'black'}}>
+        <Grid inverted style={{backgroundColor:'black'}} stackable>
               <Grid padded columns={4} >
                 <Grid.Column>
                     <Header as='h3' content='Services' inverted/>
-                    <Segment style={{border:'none'}}>
-                        <List>
+                    <Segment style={{border:'none'}} inverted>
+                        <List inverted>
                           <List.Item className='list-items'>
                               Android Development
                           </List.Item>
@@ -38,7 +38,7 @@ export default function Footer(){
 
                 <Grid.Column>
                       <Header as='h3' content='Insights' inverted/>
-                      <Segment style={{border:'none'}}>
+                      <Segment style={{border:'none'}} inverted>
                           <List>
                             <List.Item className='list-items'>
                                 Something Here
@@ -68,7 +68,7 @@ export default function Footer(){
 
                 <Grid.Column>
                     <Header as='h3' content='Contact Us' inverted/>
-                    <Segment style={{border:'none'}}>
+                    <Segment style={{border:'none'}} inverted>
                         <List>
                           <List.Item className='list-items' link>
                               +233(0) 50 934 3841

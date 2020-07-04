@@ -1,5 +1,5 @@
 import React from 'react';
-import {Homepage, Portfolio} from './components'
+import {Homepage, Portfolio, Blog, About} from './components'
 import {TopNavigation} from './layouts'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
@@ -11,6 +11,8 @@ function App() {
         <Switch>
             <Route path='/' exact component={Homepage} />
             <Route path='/portfolio' component={Portfolio} />
+            <Route path='/blog' component={Blog} />
+            <Route path='/about-us' component={About} />
         </Switch>
     </Router>
      </>

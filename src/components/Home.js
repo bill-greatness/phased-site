@@ -1,7 +1,9 @@
 import React from 'react'
 import { Grid, Segment, Image ,
   Header, Divider, List,
-  Icon, Statistic, Form, Input, TextArea, Button} from 'semantic-ui-react';
+  Icon, Statistic} from 'semantic-ui-react';
+  import ContactForm from '../sections/contact_form'
+
 import Title from '../sections/Header'
 import Slides from '../sections/Slider'
 import ImgHeader from '../sections/ImageHeader'
@@ -59,7 +61,7 @@ class Homepage extends React.Component{
     render(){
         return(
             <>
-
+                  <Grid.Row className='s-grid'>
                     <Slideshow
                         autoplay
                         showArrows={false}
@@ -70,12 +72,13 @@ class Homepage extends React.Component{
                         height={'100%'}
                         width={'100%'}
                         />
+                    </Grid.Row>
 
                         <br/>
 
-                <Grid padded columns={3} widths='equal' stackable>
+                <Grid padded columns={3} widths='equal' stackable className='next-down'>
                     <Grid.Column>
-                        <Segment raised className='s-segment'>
+                        <Segment className='s-segment m-top' >
                             <Image src={mobileImage} size='tiny' floated='right' />
                             <h2>Mobile Development</h2>
                             <p>lorem ipsum, lorem ipsum lorem ipsum,
@@ -86,7 +89,7 @@ class Homepage extends React.Component{
                     </Grid.Column>
 
                     <Grid.Column>
-                    <Segment raised className='s-segment'>
+                    <Segment  className='s-segment'>
                             <Image src={webImage} size='tiny' floated='right' />
                             <h2>Website Development</h2>
                             <p>lorem ipsum, lorem ipsum lorem ipsum,
@@ -97,7 +100,7 @@ class Homepage extends React.Component{
                     </Grid.Column>
 
                     <Grid.Column>
-                    <Segment raised className='s-segment'>
+                    <Segment  className='s-segment'>
                             <Image src={dataImage} size='tiny' floated='right' />
                             <h2>Data Analysis</h2>
                             <p>lorem ipsum, lorem ipsum lorem ipsum,
@@ -501,48 +504,15 @@ class Homepage extends React.Component{
                         </Grid.Column>
 
                         <Grid.Column width={9} centered>
-                          <Form>
-                              <Header as='h2' content='Tell Us About Your Project' />
-                              <Form.Field
-                                label='Name'
-                                required
-                                onChange={() => {}}
-                                control={Input}
-                              />
-
-                              <Form.Field
-                                label='Email'
-                                type='email'
-                                required
-                                onChange={() => {}}
-                                control={Input}
-                              />
-
-                              <Form.Field
-                                label='Phone'
-                                type='tel'
-                                required
-                                onChange={() => {}}
-                                control={Input}
-                              />
-
-                              <Form.Field
-                                label='Project Details'
-                                required
-                                onChange={() => {}}
-                                control={TextArea}
-                              />
-
-                              <Button type='submit' size='big' color='yellow' attached='bottom' animated={'vertical'} fluid> Send Request </Button>
-
-                          </Form>
+                          <ContactForm />
                         </Grid.Column>
 
                     </Grid>
                 </Segment>
             </Grid.Column>
         </Grid>
-
+<br/>
+<br/>
 
             </>
         )

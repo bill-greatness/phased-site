@@ -1,7 +1,7 @@
 
 
 .desktop-background{
-  background: linear-gradient(30deg, rgba(10,20,30,0.4), rgba(30,10,20, 0.4)) !important;
+  background: linear-gradient(30deg, rgba(10,20,30,0.5), rgba(30,10,20, 0.5)) !important;
 
 }
 
@@ -11,16 +11,33 @@
   text-transform: uppercase !important;
 }
 
-
+.s-grid{
+  height:100vh;
+}
 .s-segment{
-  margin-top: 865px !important;
   height: 200px;
+  border: none !important;
+}
+
+.welcome-us{
+  padding-top: 140px;
+  height: 100vh;
+  background-image: url('./assets/welcome-slider-3.webp');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+
+.welcome-header{
+  padding: 13% !important;
 }
 
 .list-items{
-  font-size: 18px !important;
+  font-size: 16px !important;
   padding-bottom: 20px !important;
 }
+
 
 .headers{
   text-transform: uppercase !important;
@@ -30,4 +47,25 @@
 .stacks{
   justify-content: space-between !important;
   flex-direction: row !important;
+}
+
+.mobile-menu{
+  display: none !important;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+  .s-segment{
+    margin-top: 50px !important;
+  }
+
+  .desktop-menu{
+    display: none !important;
+  }
+
+  .mobile-menu{
+    display: inline-block !important;
+  }
 }

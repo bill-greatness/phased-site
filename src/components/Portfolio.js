@@ -1,5 +1,6 @@
 import React from 'react'
-import {Grid, Segment, Menu, Dropdown, Icon} from 'semantic-ui-react'
+import {Grid, Segment, Menu, Dropdown, Icon, Header, Image} from 'semantic-ui-react'
+import laptop from '../assets/laptop.png'
 
 export default function Portfolio(){
   return (
@@ -60,9 +61,22 @@ export default function Portfolio(){
     </Menu>
       <Grid padded>
         <Grid.Column width={16}>
-          <Segment placeholder>
-              Hello Greatness
-          </Segment>
+          {[1,2,3].map(idx => (
+            <Segment key={idx} style={{marginBottom:5}}>
+                <Grid columns={2}>
+                    <Grid.Column width={5}>
+                        <Header as='h1' content='Some Group of Crap Here' />
+                        <p>Some Long Text Here With a Brief Description</p>
+                    </Grid.Column>
+
+                    <Grid.Column width={11}>
+                        <Image src={laptop} fluid size='large' floated='right'/>
+                    </Grid.Column>
+                </Grid>
+            </Segment>
+          ))}
+
+
         </Grid.Column>
       </Grid>
       </>

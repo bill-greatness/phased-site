@@ -11,7 +11,6 @@ export default function Slides(){
       >
         <div>
             <img src={laptop} alt='Laptop Displaying  Data'/>
-
         </div>
 
         <div>

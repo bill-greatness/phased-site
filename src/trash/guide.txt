@@ -1,0 +1,207 @@
+UI/UX  DOCUMENT DESIGN OF BRANFLUENZAS MARKETING LLC
+
+Homepage (sample is cleveroad.com)
+
+    Scrolling pictures of tech stuff with description of our competitive advantage as a company
+
+    Services we offer with pictures
+
+    Display of our featured works (mobile apps UI )
+
+    Our technology stack (Programming languages, databases, frameworks) of both mobile and web
+
+    Industries we are expert in (fintech, healthcare, travel and hospitality ,agriculture, oil and gas, logistics ,real estate, education and retail with a lil details on it)
+
+    Why choose Us
+
+    Successful project counts (i.e. successful projects, clients satisfaction rate,etc )
+
+    Clients reviews
+
+    Lets get talking or tell us about your projects
+
+    Footer
+
+
+
+SERVICES (cleveroad.com/services)
+
+
+
+MARKETING
+
+    Branding and packaging
+
+    Digital marketing (SEO, Social media marketing, influencer marketing)
+
+    Ads Concepts and Script Writing
+
+
+
+              DEVELOPMENT
+
+    Software Development
+
+    Mobile App Development
+
+    Website Development
+
+    UI/UX Design
+
+    Custom Software Development
+
+
+
+          CREATIVE SERVICES
+
+    Graphic Design
+
+    Photography and Videography
+
+    Content Creation
+
+    Animations (2D and 3D)
+
+
+
+Questions you may have?
+
+What our clients say
+
+
+
+
+
+SOLUTIONS (cubix.co/solutions)
+
+    Chatbot solution (AI-based chatbots)
+
+    HR management solution
+
+    School management solution
+
+    Market place
+
+
+
+
+
+ABOUT US (cleveroad.com/company)
+
+    About Branfluenzas
+
+    Management team
+
+    Mission
+
+    Vision
+
+    Values
+
+    Company Life
+
+    Careers
+
+    Testimonials (cubix.co/about/testimonials)
+
+
+
+PORTFOLIO (Cleveroad.com/portfolio and cubix.co/work)
+
+
+
+
+
+    HOW WE WORK (cleveroad.com/company/how-we-work)
+
+
+
+AGILE APPROACH TO DEVELOPMENT PROJECTS
+
+
+
+Time Oriented
+
+    Scrum
+
+Scrum is an iterative development strategy which suits huge and heavy projects perfectly with changing requirements.
+
+    2000+ hours projects
+
+    Quick start
+
+    Task priority
+
+
+
+Fixed Price
+
+    WATERFALL
+
+
+
+The waterfall methodology is a software development process flowing steadily through the defined stages. It works great for small projects.
+
+    for MVP projects
+
+    Stable requirements
+
+    Strict deadlines
+
+
+
+
+
+
+
+Dedicated Team
+
+    Kanban
+
+This approach lets us work by the custom flow, which is suitable for our client who prioritizes tasks and maintains control.
+
+    Large projects
+
+    Change requests
+
+    Custom flow
+
+
+
+MARKETING and CREATIVE PROJECTS PROJECTS
+
+Understand Business Goals (Company Brief)
+
+    Define the problem.
+
+    Gather information.
+
+    Create micro goals in the form of a marketing checklist
+
+    Seamless communication between onsite and offsite employees
+
+    Generate & Evaluate possible solutions.
+
+    Implement Solution
+
+    Evaluate.
+
+
+
+
+
+Contact Us (cubix.co/contact)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
